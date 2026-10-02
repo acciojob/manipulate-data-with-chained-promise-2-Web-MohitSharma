@@ -15,7 +15,7 @@ getArr().then((arr)=>{
 	})
 	return new Promise((resolve , reject)=>{
 		setTimeout(()=>{
-			output.textContent = evenNumber
+			output.textContent = evenNumber.join(",")
 			resolve(evenNumber)
 		},1000)
 	})
@@ -26,7 +26,7 @@ getArr().then((arr)=>{
 
 	return new Promise((resolve , reject)=>{
 		setTimeout(()=>{
-			output.textContent = multyplyed;
+			output.textContent = multyplyed.join(",");
 			resolve(multyplyed);
 		},2000)
 	})
